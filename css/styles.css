@@ -494,6 +494,7 @@ text-decoration-color: #2196F3;*/
 .footer-container {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .footer-list {
@@ -543,7 +544,6 @@ text-decoration-color: #2196F3;*/
 }
 
 .footer-social-container {
-    margin-top: 12px;
     margin-right: 93px;
 }
 
@@ -732,9 +732,12 @@ text-decoration-color: #2196F3;*/
 }
 
 .modal-form-field {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
+.modal-form-comment {
+    margin-bottom: 20px;
+}
 
 
 .modal-form-imput-desc {
@@ -787,7 +790,7 @@ text-decoration-color: #2196F3;*/
 }
 
 .modal-form-message {
-    font-weight: 400;
+    display: block;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
@@ -830,12 +833,12 @@ text-decoration-color: #2196F3;*/
 .modal-form-check-desc {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-    margin-left: 12px;
     margin-bottom: 30px;
 }
 
